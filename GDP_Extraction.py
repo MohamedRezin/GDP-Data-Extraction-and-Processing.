@@ -29,5 +29,18 @@ df = df.iloc[1:11, :]
 # Assignment of column names
 df.columns = ["Country", "GDP(Million USD)"]
 
+# Change the datatype of GDP Column to Integer using astype() method.
+df["GDP(Million USD)"] = df["GDP(Million USD)"].astype(int)
+
+# Conversion of GDP Value in Millions to Billions USD
+df[["GDP(Million USD)"]] = df[["GDP(Million USD)"]]/1000
+
+# Round the value to 2 decimal places using numpy.round() function
+df[['GDP(Million USD)']] = np.round(df[['GDP(Million USD)']], 2)
+
+# Rename Column
+df.rename(columns = {"GDP(Million USD)" : "GDP (Billion USD)"},inplace=True)
+
 # Display the dataframe
 print(df)
+
