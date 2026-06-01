@@ -44,3 +44,5 @@ df.rename(columns = {"GDP(Million USD)" : "GDP (Billion USD)"},inplace=True)
 # Display the dataframe
 print(df)
 
+# Load the DataFrame to CSV file named "Largest_Economies.csv"
+df.to_csv('./Largest_Economies.csv')
