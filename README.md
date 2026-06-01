@@ -61,20 +61,6 @@ https://web.archive.org/web/20230902185326/https://en.wikipedia.org/wiki/List_of
 - ETL Fundamentals
 - CSV Data Processing
 
-## Repository Structure
-
-gdp-data-extraction-processing/
-│
-├── README.md
-├── gdp_extraction.py
-├── data/
-│   ├── raw_data.csv
-│   └── processed_data.csv
-│
-├── screenshots/
-│
-└── docs/
-
 ## Sample Output
 
 The final output contains the top 10 largest economies ranked by GDP in billions of USD.
