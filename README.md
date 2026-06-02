@@ -6,10 +6,6 @@ This repository contains a collection of data engineering and ETL projects devel
 
 The repository reflects a progressive learning path in data engineering, beginning with foundational data extraction tasks and advancing toward complete ETL pipeline implementations involving databases, structured outputs, logging, and data transformation.
 
-## Repository Structure
-
-text Data-Engineering-Projects/ │ ├── GDP-Extraction/ ├── IMF-GDP-ETL/ └── Global-Banks-ETL/ 
-
 ## Projects
 
 ### 1. GDP Extraction
