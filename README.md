@@ -63,6 +63,23 @@ Skills demonstrated:
 - CSV
 - SQL
 
+### 4. Coffee Shop Relational Database Design & Normalization
+
+Designed and implemented a normalized PostgreSQL database for a multi-location coffee shop sales system, including schema design, ERD modeling, relationship mapping, and reporting objects.
+
+Skills demonstrated:
+
+- Relational Database Design
+- Entity Relationship Modeling (ERD)
+- Database Normalization (1NF, 2NF, 3NF)
+- Primary & Foreign Key Design
+- PostgreSQL
+- SQL DDL (CREATE TABLE)
+- Referential Integrity
+- Views & Materialized Views
+- Data Modeling
+- Schema Design
+
 ## Purpose
 
 These projects were developed as part of practical data engineering training and showcase the implementation of core ETL concepts and data processing workflows used in real-world analytical and business environments.
